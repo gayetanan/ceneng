@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--third-color);
+  letter-spacing: 0.5px;
+}
+.container {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+};
+/********************************************
+*****************btn and links****************
+********************************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+h2 {
+  font-size: var(--big);
+}
+h3 {
+  font-size: var(--medium);
+}
+h1 {
+  font-size: var(--x-big);
+  font-weight: 700;
+}
+h4 {
+  font-size: var(--xl-big);
+}
+/********************************************
+*****************btn and links****************
+********************************************/
+a {
+  text-decoration: none;
+  color: #262626;
+}
+a,
+.btn,
+button {
+  transition: 0.5s ease;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  padding: 0.5rem 0.7rem;
+  border-radius: 5px;
+}
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+}
+.btn-outline {
+  border: 2px solid var(--third-color);
+}
+.btn-outline:hover {
+  background-color: var(--third-color);
+  color: white;
+}
+.btn-link {
+  padding: 0;
+  color: var(--main-color);
+}
+/********************************************
+*****************btn and links****************
+********************************************/
+.py-2 {
+  padding: 3rem 0;
+}
+.py-3 {
+  padding: 2.5rem 0;
+}
+.py-4 {
+  padding: 3rem 0;
+}
+.btn-primary {
+  background-color: var(--main-color);
+  color: white;
+}
+.btn-primary:hover {
+  background-color: var(--hover-main);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+.d-flx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/********************************************
+********************BG COLOR****************
+********************************************/
+.primary-bg {
+  background-color: var(--secondary-color);
+  color: var(--third-color);
+}
+/********************************************
+*****************CARDS*******************
+********************************************/
+.card {
+  padding: 1rem;
+  background-color: white;
+  border-radius: .25rem;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.08);
+}
+/********************************************
+*****************ANIMATION*******************
+********************************************/
+.sub-title-1 h4 {
+  font-size: var(--medium);
+  color: var(--main-color);
+  display: inline-block;
+  position: relative;
+}
+.sub-title-1 h4::after {
+  content: " ";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 5px;
+  left: 115%;
+  background-color: var(--third-color);
+}
+.title-2 {
+  text-align: center;
+}
+.title-2 p {
+  font-size: var(--normal);
+}
+/********************************************
+*****************ANIMATION*******************
+********************************************/
+@keyframes contactAnim {
+  from {
+    transform: translateX(-105%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes socialtAnim {
+  from {
+    transform: translateX(105%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+/* 
+@keyframes linkAnim {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(0);
+  }
+} */
+@keyframes stickyAnim {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
