@@ -1,403 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>central engineering | home page</title>
-    
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-     <!---------------UTILITIES-------------------->
-     <link rel="stylesheet" href="./styles/utilities.css" />
-    <!---------------STYLE CSS-------------------->
-    <link rel="stylesheet" href="./styles/style.css" />
-    <!---------------MEDIA QUERY------------------>
-    <link rel="stylesheet" href="./styles/query.css" />
-    <!---------------FAVICON---------------------->
-    <link rel="shortcut icon" href="./assets/favicon-1.png" type="image/x-icon"/>
-    <!---------------ICONS-------------------->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"/>
-  </head>
-  <body>
-      <div id="box" class="card" aria-hidden="true">
-      <button><i class="bi bi-x-lg"></i></button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>central engineering | home page</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <!---------------UTILITIES-------------------->
+  <link rel="stylesheet" href="./styles/utilities.css" />
+  <!---------------STYLE CSS-------------------->
+  <link rel="stylesheet" href="./styles/style.css" />
+  <!---------------MEDIA QUERY------------------>
+  <link rel="stylesheet" href="./styles/query.css" />
+  <!---------------FAVICON---------------------->
+  <link rel="shortcut icon" href="./assets/favicon-1.png" type="image/x-icon" />
+  <!---------------ICONS-------------------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <div id="box" class="card" aria-hidden="true">
+    <button><i class="bi bi-x-lg"></i></button>
+    <div>
       <div>
-          <div>
-            <h2>Send your feedbacks!</h2>
-            <p>Your feedbacks would be appretiated.<br>
-              share your Toughts in the contact form.
-            </p>
-          </div>
+        <h2>Send your feedbacks!</h2>
+        <p>Your feedbacks would be appretiated.<br>
+          share your Toughts in the contact form.
+        </p>
       </div>
+    </div>
+  </div>
+  <div class="body">
+    <button class="scroll-up" id="scroll-up">
+      <i class="bi bi-chevron-up"></i>
+    </button>
+    <!----------NAV BAR------------->
+    <header class="header" id="header">
+      <div class="top-nav">
+        <div class="container">
+          <div class="topnav-content flex">
+            <div class="contact" id="contact">
+              <div class="phone-ctn">
+                <a href="tel:+509 44 26 3331"><i class="bi bi-telephone-fill"></i>+509 44 26 3331</a>
+              </div>
+              <div class="email-ctn">
+                <a href="mailto:thegaetanht@gmail.com"><i class="bi bi-envelope-fill"></i>info@ceneng.site</a>
+              </div>
+            </div>
+            <div class="social-icons" id="social-media">
+              <a href="https://web.facebook.com/Gaetan-Emmanuel-102206462269712/?ref=pages_you_manage"
+                target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="/"><i class="bi bi-instagram"></i></a>
+              <a href="https://twitter.com/theGaetanht" target="_blank"><i class="bi bi-twitter"></i></a>
+              <a href="/"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
-    <div class="body">
-      <button class="scroll-up" id="scroll-up">
-        <i class="bi bi-chevron-up"></i>
-      </button>
-      <!----------NAV BAR------------->
-      <header class="header" id="header">
-        <div class="top-nav">
-          <div class="container">
-            <div class="topnav-content flex">
-              <div class="contact" id="contact">
-                <div class="phone-ctn">
-                  <a href="tel:+509 44 26 3331"  ><i class="bi bi-telephone-fill"></i>+509 44 26 3331</a>
+      <!-- main navigation bar -->
+      <div class="main-navbar">
+        <div class="container mainnav-content d-flx">
+          <a href="/" class="logo">
+            <img src="./assets/logo-ceneng.svg" alt="logo" />
+          </a>
+          <nav class="navlinks">
+            <ul>
+              <li class="navlink"><a class="active-link" href="#home">Home</a></li>
+              <li class="navlink"><a href="#about">About</a></li>
+              <li class="navlink"><a href="#services">Services</a></li>
+              <li class="navlink"><a href="#porfolio">Porfolio</a></li>
+              <li class="navlink"><a href="#testimonial">Testimonial</a></li>
+              <li class="navlink"><a href="#getintouch">Contact</a></li>
+            </ul>
+          </nav>
+          <button class="burger" id="trigger">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!----------SHOWCASE------------->
+    <section class="showcase primary-bg" id="home">
+      <div class="showcase-contents container">
+        <div class="showcase-infos" id="showcase-infos">
+          <h1>We're building<br />the future</h1>
+          <p>Entrust us with your construction project, we have the necessary experience to make your dream comes true.
+          </p>
+          <div class="buttons flex">
+            <button href="#getintouch" class="btn btn-primary ctn-btn">Contact us</button>
+            <button href="#porfolio" class="btn btn-outline ctn-btn">See project</button>
+          </div>
+        </div>
+        <div class="showcase-img" id="showcase-img">
+          <img src="./assets/img/main-img.png" alt="Showcase image" />
+        </div>
+      </div>
+    </section>
+    <!----------ABOUT US------------->
+    <section class="about" id="about">
+      <div class="about-content container">
+        <div class="about-infos">
+          <div class="sub-title-1">
+            <h4>About us</h4>
+            <h2>
+              We have <span>43</span> years of <br />
+              experience you can trust us.
+            </h2>
+          </div>
+          <p>
+            With 43 years of industry experience, we've earned your trust by delivering exceptional civil engineering
+            solutions. Our proven track record and satisfied clients attest to our dedication to excellence. Join us,
+            and let our expertise shape your success.
+          </p>
+
+          <a href="#" class="btn btn-primary">See more</a>
+        </div>
+
+        <div class="about-img">
+          <img src="./assets/img/about_img.png" alt="abou image" />
+        </div>
+      </div>
+
+      <div class="stats primary-bg">
+        <div class="stats-content grid container">
+          <div class="card small-card">
+            <div class="card-content">
+              <h3 class="count" data-count="5647">0</h3>
+              <span>Complete project</span>
+            </div>
+          </div>
+          <div class="card small-card">
+            <div class="card-content">
+              <h3><span class="count" data-count="7650">0</span>+</h3>
+              <span>Happy client</span>
+            </div>
+          </div>
+          <div class="card small-card">
+            <div class="card-content">
+              <h3 class="count" data-count="216">0</h3>
+              <span>Employers</span>
+            </div>
+          </div>
+          <div class="card small-card">
+            <div class="card-content">
+              <h3 class="count" data-count="17">0</h3>
+              <span>Award winning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------SERVICES------------->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="title-2" style="max-width: 400px; margin: 0 auto;">
+          <h2>Our Services</h2>
+          <p>Innovative Solutions for Success, from Concept to Completion.</p>
+        </div>
+
+        <div class="services-card-content grid">
+          <div class="card big-card">
+            <div class="card-img">
+              <img src="./assets/img/services_img_1.png" alt="services image" />
+            </div>
+            <div class="big-card-info flow">
+              <h3>Interior Design</h3>
+              <p>
+                Transforming spaces with stylish, functional, and personalized interior designs for homes and businesses
+              </p>
+              <a href="#" class="btn btn-link">Read More <i class="bi bi-arrow-right-circle-fill"></i></a>
+            </div>
+          </div>
+          <div class="card big-card">
+            <div class="card-img">
+              <img src="./assets/img/services_img_1.png" alt="services image" />
+            </div>
+            <div class="big-card-info flow">
+              <h3>General Services</h3>
+              <p>
+                Comprehensive civil engineering solutions for all project needs, from analysis to compliance, ensuring
+                success.
+              </p>
+              <a href="#" class="btn btn-primary">Read More <i class="bi bi-arrow-right-circle-fill"></i></a>
+            </div>
+          </div>
+          <div class="card big-card">
+            <div class="card-img">
+              <img src="./assets/img/services_img_1.png" alt="services image" />
+            </div>
+            <div class="big-card-info flow">
+              <h3>Construction</h3>
+              <p>
+                Expert construction services delivering top-notch results, from groundbreaking to finishing, on time and
+                within budget.
+              </p>
+              <a href="#" class="btn btn-link">Read More <i class="bi bi-arrow-right-circle-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------porfolio------------->
+    <section class="porfolio" id="porfolio">
+      <div class="container">
+        <div class="title-2">
+          <h2>Latest works</h2>
+          <p>Explore Our Impressive Portfolio.</p>
+        </div>
+
+        <div class="content">
+          <div class="filter-btns flex" id="filter-btns">
+            <button class="fl-active" data-filter="all">All</button>
+            <button data-filter=".bridge">Bridge</button>
+            <button data-filter=".interior">Interior</button>
+            <button data-filter=".building">Building</button>
+          </div>
+
+          <div class="porfolio-bd grid" id="porfolio-bd">
+            <article class="porfolio-article mix interior" data-item="interior">
+              <img src="./assets/img/porfolio-1.png" alt="porfolio">
+              <div class="dark-bg"></div>
+              <div class="pf-txt-ctn">
+                <span class="category">Interior design</span>
+                <h3 class="pf-name">Interior</h3>
+              </div>
+            </article>
+
+            <article class="porfolio-article mix bridge" data-item="bridge">
+              <img src="./assets/img/porfolio-2.png" alt="porfolio">
+              <div class="dark-bg"></div>
+              <div class="pf-txt-ctn">
+                <span class="category">Bridge construction</span>
+                <h3 class="pf-name">Bridge</h3>
+              </div>
+            </article>
+
+            <article class="porfolio-article mix interior" data-item="interior">
+              <img src="./assets/img/porfolio-3.png" alt="porfolio">
+              <div class="dark-bg"></div>
+              <div class="pf-txt-ctn">
+                <span class="category">Interior design</span>
+                <h3 class="pf-name">interior</h3>
+              </div>
+            </article>
+
+            <article class="porfolio-article mix building" data-item="building">
+              <img src="./assets/img/porfolio-4.png" alt="porfolio">
+              <div class="dark-bg"></div>
+              <div class="pf-txt-ctn">
+                <span class="category">Building construction</span>
+                <h3 class="pf-name">Building</h3>
+              </div>
+            </article>
+
+            <article class="porfolio-article mix bridge" data-item="bridge">
+              <img src="./assets/img/porfolio-5.png" alt="porfolio">
+              <div class="dark-bg"></div>
+              <div class="pf-txt-ctn">
+                <span class="category">Bridge construction</span>
+                <h3 class="pf-name">Bridge</h3>
+              </div>
+            </article>
+
+            <article class="porfolio-article mix building" data-item="building">
+              <img src="./assets/img/porfolio-6.png" alt="porfolio">
+              <div class="dark-bg"></div>
+              <div class="pf-txt-ctn">
+                <span class="category">Building construction</span>
+                <h3 class="pf-name">Building</h3>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!----------TESTIMONIALS------------->
+    <section class="testimonials" id="testimonial">
+      <div class="container">
+        <div class="title-2">
+          <h2>Testimonial</h2>
+          <p>Hear from Happy Clients!</p>
+        </div>
+
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="flex test-card swiper-slide">
+              <div class="test-head">
+                <div class="img-ctn">
+                  <img src="./assets/img/testimonial-1.png" alt="testimonial image" />
                 </div>
-                <div class="email-ctn">
-                  <a href="mailto:thegaetanht@gmail.com"><i class="bi bi-envelope-fill"></i>info@ceneng.site</a>
+                <div class="title">
+                  <h3>John Doe</h3>
+                  <span>Happy Client</span>
                 </div>
               </div>
-              <div class="social-icons" id="social-media">
-                <a href="https://web.facebook.com/Gaetan-Emmanuel-102206462269712/?ref=pages_you_manage" target="_blank"><i class="bi bi-facebook"></i></a>
-                <a href="/"><i class="bi bi-instagram"></i></a>
-                <a href="https://twitter.com/theGaetanht" target="_blank"><i class="bi bi-twitter"></i></a>
-                <a href="/"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- main navigation bar -->
-        <div class="main-navbar">
-          <div class="container mainnav-content d-flx">
-            <a href="/" class="logo">
-              <img src="./assets/logo-ceneng.svg" alt="logo" />
-            </a>
-            <nav class="navlinks">
-              <ul>
-                <li class="navlink"><a class="active-link" href="#home">Home</a></li>
-                <li class="navlink"><a href="#about">About</a></li>
-                <li class="navlink"><a href="#services">Services</a></li>
-                <li class="navlink"><a href="#porfolio">Porfolio</a></li>
-                <li class="navlink"><a href="#testimonial">Testimonial</a></li>
-                <li class="navlink"><a href="#getintouch">Contact</a></li>
-              </ul>
-            </nav>
-            <button class="burger" id="trigger">
-                <i class="bi bi-list"></i>
-            </button>
-          </div>
-        </div>
-      </header>
-      <!----------SHOWCASE------------->
-      <section class="showcase primary-bg" id="home">
-        <div class="showcase-contents container">
-          <div class="showcase-infos" id="showcase-infos">
-            <h1>We're building<br/>the future</h1>
-            <p>Entrust us with your construction project, we have the necessary experience to make your dream comes true.</p>
-            <div class="buttons flex">
-              <button href="#getintouch" class="btn btn-primary ctn-btn">Contact us</button>
-              <button href="#porfolio" class="btn btn-outline ctn-btn">See project</button>
-            </div>
-          </div>
-          <div class="showcase-img" id="showcase-img">
-            <img src="./assets/img/main-img.png" alt="Showcase image" />
-          </div>
-        </div>
-      </section>
-      <!----------ABOUT US------------->
-      <section class="about" id="about">
-        <div class="about-content container">
-          <div class="about-infos">
-            <div class="sub-title-1">
-              <h4>About us</h4>
-              <h2>
-                We have <span >43</span> years of <br />
-                experience you can trust us.
-              </h2>
-            </div>
-            <p>
-              With 43 years of industry experience, we've earned your trust by delivering exceptional civil engineering solutions. Our proven track record and satisfied clients attest to our dedication to excellence. Join us, and let our expertise shape your success.
-            </p>
-
-            <a href="#" class="btn btn-primary">See more</a>
-          </div>
-
-          <div class="about-img">
-            <img src="./assets/img/about_img.png" alt="abou image" />
-          </div>
-        </div>
-
-        <div class="stats primary-bg">
-          <div class="stats-content grid container">
-            <div class="card small-card">
-              <div class="card-content">
-                <h3 class="count" data-count="5647">0</h3>
-                <span>Complete project</span>
-              </div>
-            </div>
-            <div class="card small-card">
-              <div class="card-content">
-                <h3><span class="count" data-count="7650">0</span>+</h3>
-                <span>Happy client</span>
-              </div>
-            </div>
-            <div class="card small-card">
-              <div class="card-content">
-                <h3 class="count" data-count="216">0</h3>
-                <span>Employers</span>
-              </div>
-            </div>
-            <div class="card small-card">
-              <div class="card-content">
-                <h3 class="count" data-count="17">0</h3>
-                <span>Award winning</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!----------SERVICES------------->
-      <section class="services" id="services">
-        <div class="container">
-          <div class="title-2" style="max-width: 400px; margin: 0 auto;">
-            <h2>Our Services</h2>
-            <p>Innovative Solutions for Success, from Concept to Completion.</p>
-          </div>
-
-          <div class="services-card-content grid">
-            <div class="card big-card">
-              <div class="card-img">
-                <img src="./assets/img/services_img_1.png" alt="services image" />
-              </div>
-              <div class="big-card-info flow">
-                <h3>Interior Design</h3>
+              <div class="test-body">
                 <p>
-                  Transforming spaces with stylish, functional, and personalized interior designs for homes and businesses
+                  Efficient and reliable services. Their expertise saved us time and money. Highly recommended!
                 </p>
-                <a href="#" class="btn btn-link"
-                  >Read More <i class="bi bi-arrow-right-circle-fill"></i
-                ></a>
               </div>
             </div>
-            <div class="card big-card">
-              <div class="card-img">
-                <img src="./assets/img/services_img_1.png" alt="services image" />
+            <div class="flex test-card swiper-slide">
+              <div class="test-head">
+                <div class="img-ctn">
+                  <img src="./assets/img/testimonial-1.png" alt="testimonial image" />
+                </div>
+                <div class="title">
+                  <h3>Jhon Steves</h3>
+                  <span>Satisfied Customer</span>
+                </div>
               </div>
-              <div class="big-card-info flow">
-                <h3>General Services</h3>
+              <div class="test-body">
                 <p>
-                  Comprehensive civil engineering solutions for all project needs, from analysis to compliance, ensuring success.
+                  Impressive results! They delivered on time and within budget. Best civil engineering team we've worked
+                  with.
                 </p>
-                <a href="#" class="btn btn-primary"
-                  >Read More <i class="bi bi-arrow-right-circle-fill"></i
-                ></a>
               </div>
             </div>
-            <div class="card big-card">
-              <div class="card-img">
-                <img src="./assets/img/services_img_1.png" alt="services image" />
+
+            <div class="flex test-card swiper-slide">
+              <div class="test-head">
+                <div class="img-ctn">
+                  <img src="./assets/img/testimonial-1.png" alt="testimonial image" />
+                </div>
+                <div class="title">
+                  <h3>Micheal Carter</h3>
+                  <span>Grateful Client</span>
+                </div>
               </div>
-              <div class="big-card-info flow">
-                <h3>Construction</h3>
+              <div class="test-body">
                 <p>
-                  Expert construction services delivering top-notch results, from groundbreaking to finishing, on time and within budget.
+                  Innovative solutions, exceptional quality. They made our dream project a reality. Thank you for your
+                  outstanding work!
                 </p>
-                  <a href="#" class="btn btn-link">Read More <i class="bi bi-arrow-right-circle-fill"></i></a>
               </div>
             </div>
+
+            <div class="flex test-card swiper-slide">
+              <div class="test-head">
+                <div class="img-ctn">
+                  <img src="./assets/img/testimonial-1.png" alt="testimonial image" />
+                </div>
+                <div class="title">
+                  <h3>Jhon Doe</h3>
+                  <span>Delighted Customer</span>
+                </div>
+              </div>
+              <div class="test-body">
+                <p>
+                  Top-notch engineering skills and great communication. Pleasure to work with this professional team.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex test-card swiper-slide">
+              <div class="test-head">
+                <div class="img-ctn">
+                  <img src="./assets/img/testimonial-1.png" alt="testimonial image" />
+                </div>
+                <div class="title">
+                  <h3>Jane Doe</h3>
+                  <span>Impressed Client</span>
+                </div>
+              </div>
+              <div class="test-body">
+                <p>
+                  Highly satisfied with their expertise. They turned our vision into a successful, sustainable project.
+                  Fantastic job!
+                </p>
+              </div>
+            </div>
+
           </div>
+
+          <div class="swiper-pagination"></div>
         </div>
-      </section>
-      <!----------porfolio------------->
-      <section class="porfolio" id="porfolio">
-        <div class="container">
-          <div class="title-2">
-            <h2>Latest works</h2>
-            <p>Explore Our Impressive Portfolio.</p>
-          </div>
+      </div>
+    </section>
+    <div class="trust-section">
+      <div class="container content flex">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <path
+              d="M178.414 339.706H141.1L112.166 223.475h-.478L83.228 339.706H45.2L0 168.946H37.548L64.574 285.177h.478L94.707 168.946h35.157l29.178 117.667h.479L187.5 168.946h36.831zM271.4 212.713c38.984 0 64.1 25.828 64.1 65.291 0 39.222-25.111 65.05-64.1 65.05-38.743 0-63.855-25.828-63.855-65.05C207.547 238.541 232.659 212.713 271.4 212.713zm0 104.753c23.2 0 30.133-19.852 30.133-39.462 0-19.852-6.934-39.7-30.133-39.7-27.7 0-29.894 19.85-29.894 39.7C241.508 297.614 248.443 317.466 271.4 317.466zM435.084 323.922h-.478c-7.893 13.392-21.765 19.132-37.548 19.132-37.31 0-55.485-32.045-55.485-66.246 0-33.243 18.415-64.095 54.767-64.095 14.589 0 28.938 6.218 36.831 18.416h.24V168.946h33.96v170.76H435.084zM405.428 238.3c-22.24 0-29.894 19.134-29.894 39.463 0 19.371 8.848 39.7 29.894 39.7 22.482 0 29.178-19.613 29.178-39.94C434.606 257.436 427.432 238.3 405.428 238.3zM592.96 339.706H560.673V322.487h-.718c-8.609 13.87-23.436 20.567-37.786 20.567-36.113 0-45.2-20.328-45.2-50.941V216.061h33.959V285.9c0 20.329 5.979 30.372 21.765 30.372 18.415 0 26.306-10.283 26.306-35.393V216.061H592.96zM602.453 302.876H640v36.83H602.453z" />
+          </svg>
+        </span>
 
-          <div class="content">
-            <div class="filter-btns flex" id="filter-btns">
-              <button class="fl-active" data-filter="all">All</button>
-              <button data-filter=".bridge">Bridge</button>
-              <button data-filter=".interior">Interior</button>
-              <button data-filter=".building">Building</button>
-            </div>
+        <span class="wix">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <path
+              d="M393.38 131.69c0 13.03 2.08 32.69-28.68 43.83-9.52 3.45-15.95 9.66-15.95 9.66 0-31 4.72-42.22 17.4-48.86 9.75-5.11 27.23-4.63 27.23-4.63zm-115.8 35.54l-34.24 132.66-28.48-108.57c-7.69-31.99-20.81-48.53-48.43-48.53-27.37 0-40.66 16.18-48.43 48.53L89.52 299.89 55.28 167.23C49.73 140.51 23.86 128.96 0 131.96l65.57 247.93s21.63 1.56 32.46-3.96c14.22-7.25 20.98-12.84 29.59-46.57 7.67-30.07 29.11-118.41 31.12-124.7 4.76-14.94 11.09-13.81 15.4 0 1.97 6.3 23.45 94.63 31.12 124.7 8.6 33.73 15.37 39.32 29.59 46.57 10.82 5.52 32.46 3.96 32.46 3.96l65.57-247.93c-24.42-3.07-49.82 8.93-55.3 35.27zm115.78 5.21s-4.1 6.34-13.46 11.57c-6.01 3.36-11.78 5.64-17.97 8.61-15.14 7.26-13.18 13.95-13.18 35.2v152.07s16.55 2.09 27.37-3.43c13.93-7.1 17.13-13.95 17.26-44.78V181.41l-.02.01v-8.98zm163.44 84.08L640 132.78s-35.11-5.98-52.5 9.85c-13.3 12.1-24.41 29.55-54.18 72.47-.47.73-6.25 10.54-13.07 0-29.29-42.23-40.8-60.29-54.18-72.47-17.39-15.83-52.5-9.85-52.5-9.85l83.2 123.74-82.97 123.36s36.57 4.62 53.95-11.21c11.49-10.46 17.58-20.37 52.51-70.72 6.81-10.52 12.57-.77 13.07 0 29.4 42.38 39.23 58.06 53.14 70.72 17.39 15.83 53.32 11.21 53.32 11.21L556.8 256.52z" />
+          </svg>
+        </span>
 
-            <div class="porfolio-bd grid" id="porfolio-bd">
-                <article class="porfolio-article mix interior" data-item="interior">
-                  <img src="./assets/img/porfolio-1.png" alt="porfolio">
-                  <div class="dark-bg"></div>
-                  <div class="pf-txt-ctn">
-                    <span class="category">Interior design</span>
-                    <h3 class="pf-name">Interior</h3>
-                  </div>
-                </article>
-
-                <article class="porfolio-article mix bridge" data-item="bridge">
-                  <img src="./assets/img/porfolio-2.png" alt="porfolio">
-                  <div class="dark-bg"></div>
-                  <div class="pf-txt-ctn">
-                    <span class="category">Bridge construction</span>
-                    <h3 class="pf-name">Bridge</h3>
-                  </div>
-                </article>
-
-                <article class="porfolio-article mix interior" data-item="interior">
-                  <img src="./assets/img/porfolio-3.png" alt="porfolio">
-                  <div class="dark-bg"></div>
-                  <div class="pf-txt-ctn">
-                    <span class="category">Interior design</span>
-                    <h3 class="pf-name">interior</h3>
-                  </div>
-                </article>
-
-                <article class="porfolio-article mix building" data-item="building">
-                  <img src="./assets/img/porfolio-4.png" alt="porfolio">
-                  <div class="dark-bg"></div>
-                  <div class="pf-txt-ctn">
-                    <span class="category">Building construction</span>
-                    <h3 class="pf-name">Building</h3>
-                  </div>
-                </article>
-
-                <article class="porfolio-article mix bridge" data-item="bridge">
-                  <img src="./assets/img/porfolio-5.png" alt="porfolio">
-                  <div class="dark-bg"></div>
-                  <div class="pf-txt-ctn">
-                    <span class="category">Bridge construction</span>
-                    <h3 class="pf-name">Bridge</h3>
-                  </div>
-                </article>
-
-                <article class="porfolio-article mix building" data-item="building">
-                  <img src="./assets/img/porfolio-6.png" alt="porfolio">
-                  <div class="dark-bg"></div>
-                  <div class="pf-txt-ctn">
-                    <span class="category">Building construction</span>
-                    <h3 class="pf-name">Building</h3>
-                  </div>
-                </article>
-            </div>
-
-          </div>
-
-        </div>
-      
-      </section>
-      <!----------TESTIMONIALS------------->
-      <section class="testimonials" id="testimonial">
-        <div class="container">
-          <div class="title-2">
-            <h2>Testimonial</h2>
-            <p>Hear from Happy Clients!</p>
-          </div>
-          
-          <div class="swiper">
-            <div class="swiper-wrapper">
-              <div class="flex test-card swiper-slide">
-                <div class="test-head">
-                  <div class="img-ctn">
-                    <img src="./assets/img/testimonial-1.png" alt="testimonial image"/>
-                  </div>
-                  <div class="title">
-                    <h3>John Doe</h3>
-                    <span>Happy Client</span>
-                  </div>
-                </div>
-                <div class="test-body">
-                  <p>
-                    Efficient and reliable services. Their expertise saved us time and money. Highly recommended!
-                  </p>
-                </div>
-              </div>
-              <div class="flex test-card swiper-slide">
-                <div class="test-head">
-                  <div class="img-ctn">
-                    <img
-                      src="./assets/img/testimonial-1.png"
-                      alt="testimonial image"
-                    />
-                  </div>
-                  <div class="title">
-                    <h3>Jhon Steves</h3>
-                    <span>Satisfied Customer</span>
-                  </div>
-                </div>
-                <div class="test-body">
-                  <p>
-                    Impressive results! They delivered on time and within budget. Best civil engineering team we've worked with.
-                  </p>
-                </div>
-              </div>
-
-              <div class="flex test-card swiper-slide">
-                <div class="test-head">
-                  <div class="img-ctn">
-                    <img
-                      src="./assets/img/testimonial-1.png"
-                      alt="testimonial image"
-                    />
-                  </div>
-                  <div class="title">
-                    <h3>Micheal Carter</h3>
-                    <span>Grateful Client</span>
-                  </div>
-                </div>
-                <div class="test-body">
-                  <p>
-                    Innovative solutions, exceptional quality. They made our dream project a reality. Thank you for your outstanding work!
-                  </p>
-                </div>
-              </div>
-
-              <div class="flex test-card swiper-slide">
-                <div class="test-head">
-                  <div class="img-ctn">
-                    <img src="./assets/img/testimonial-1.png" alt="testimonial image" />
-                  </div>
-                  <div class="title">
-                    <h3>Jhon Doe</h3>
-                    <span>Delighted Customer</span>
-                  </div>
-                </div>
-                <div class="test-body">
-                  <p>
-                    Top-notch engineering skills and great communication. Pleasure to work with this professional team.
-                  </p>
-                </div>
-              </div>
-
-              <div class="flex test-card swiper-slide">
-                <div class="test-head">
-                  <div class="img-ctn">
-                    <img src="./assets/img/testimonial-1.png" alt="testimonial image" />
-                  </div>
-                  <div class="title">
-                    <h3>Jane Doe</h3>
-                    <span>Impressed Client</span>
-                  </div>
-                </div>
-                <div class="test-body">
-                  <p>
-                    Highly satisfied with their expertise. They turned our vision into a successful, sustainable project. Fantastic job!
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <div class="trust-section">
-        <div class="container content flex">
-          <span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-              <path
-                d="M178.414 339.706H141.1L112.166 223.475h-.478L83.228 339.706H45.2L0 168.946H37.548L64.574 285.177h.478L94.707 168.946h35.157l29.178 117.667h.479L187.5 168.946h36.831zM271.4 212.713c38.984 0 64.1 25.828 64.1 65.291 0 39.222-25.111 65.05-64.1 65.05-38.743 0-63.855-25.828-63.855-65.05C207.547 238.541 232.659 212.713 271.4 212.713zm0 104.753c23.2 0 30.133-19.852 30.133-39.462 0-19.852-6.934-39.7-30.133-39.7-27.7 0-29.894 19.85-29.894 39.7C241.508 297.614 248.443 317.466 271.4 317.466zM435.084 323.922h-.478c-7.893 13.392-21.765 19.132-37.548 19.132-37.31 0-55.485-32.045-55.485-66.246 0-33.243 18.415-64.095 54.767-64.095 14.589 0 28.938 6.218 36.831 18.416h.24V168.946h33.96v170.76H435.084zM405.428 238.3c-22.24 0-29.894 19.134-29.894 39.463 0 19.371 8.848 39.7 29.894 39.7 22.482 0 29.178-19.613 29.178-39.94C434.606 257.436 427.432 238.3 405.428 238.3zM592.96 339.706H560.673V322.487h-.718c-8.609 13.87-23.436 20.567-37.786 20.567-36.113 0-45.2-20.328-45.2-50.941V216.061h33.959V285.9c0 20.329 5.979 30.372 21.765 30.372 18.415 0 26.306-10.283 26.306-35.393V216.061H592.96zM602.453 302.876H640v36.83H602.453z" />
-            </svg>
-          </span>
-
-          <span class="wix">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-              <path
-                d="M393.38 131.69c0 13.03 2.08 32.69-28.68 43.83-9.52 3.45-15.95 9.66-15.95 9.66 0-31 4.72-42.22 17.4-48.86 9.75-5.11 27.23-4.63 27.23-4.63zm-115.8 35.54l-34.24 132.66-28.48-108.57c-7.69-31.99-20.81-48.53-48.43-48.53-27.37 0-40.66 16.18-48.43 48.53L89.52 299.89 55.28 167.23C49.73 140.51 23.86 128.96 0 131.96l65.57 247.93s21.63 1.56 32.46-3.96c14.22-7.25 20.98-12.84 29.59-46.57 7.67-30.07 29.11-118.41 31.12-124.7 4.76-14.94 11.09-13.81 15.4 0 1.97 6.3 23.45 94.63 31.12 124.7 8.6 33.73 15.37 39.32 29.59 46.57 10.82 5.52 32.46 3.96 32.46 3.96l65.57-247.93c-24.42-3.07-49.82 8.93-55.3 35.27zm115.78 5.21s-4.1 6.34-13.46 11.57c-6.01 3.36-11.78 5.64-17.97 8.61-15.14 7.26-13.18 13.95-13.18 35.2v152.07s16.55 2.09 27.37-3.43c13.93-7.1 17.13-13.95 17.26-44.78V181.41l-.02.01v-8.98zm163.44 84.08L640 132.78s-35.11-5.98-52.5 9.85c-13.3 12.1-24.41 29.55-54.18 72.47-.47.73-6.25 10.54-13.07 0-29.29-42.23-40.8-60.29-54.18-72.47-17.39-15.83-52.5-9.85-52.5-9.85l83.2 123.74-82.97 123.36s36.57 4.62 53.95-11.21c11.49-10.46 17.58-20.37 52.51-70.72 6.81-10.52 12.57-.77 13.07 0 29.4 42.38 39.23 58.06 53.14 70.72 17.39 15.83 53.32 11.21 53.32 11.21L556.8 256.52z" />
-            </svg>
-          </span>
-
-          <span class="wallmart">
+        <span class="wallmart">
           <svg clip-rule="evenodd" fill-rule="evenodd" viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg">
             <path
               d="m60 169.169s10.946 44.854 12.693 52.134c2.039 8.498 5.713 11.625 16.305 9.516l6.835-27.809c1.732-6.908 2.894-11.832 4.008-18.859h.196c.782 7.096 1.896 11.972 3.322 18.884 0 0 2.782 12.624 4.207 19.255 1.429 6.629 5.404 10.806 15.78 8.532l16.286-61.648h-13.149l-5.56 26.653c-1.495 7.759-2.851 13.82-3.897 20.918h-.186c-.95-7.027-2.159-12.848-3.679-20.408l-5.789-27.164h-13.7l-6.192 26.479c-1.755 8.046-3.395 14.543-4.439 21.4h-.189c-1.068-6.458-2.492-14.623-4.033-22.412 0 0-3.679-18.94-4.97-25.467l-13.848.002zm125.349 0v61.648h12.519v-61.651h-12.519zm176.318 0v45.478c0 6.271 1.18 10.664 3.705 13.348 2.206 2.347 5.839 3.867 10.192 3.867 3.701 0 7.343-.702 9.059-1.341l-.162-9.783c-1.277.314-2.746.566-4.755.566-4.265 0-5.695-2.731-5.695-8.361v-17.4h10.903v-11.795h-10.903v-14.578h-12.345.001zm-204.295 14.291c-7.78 0-13.956 2.185-17.323 4.13l2.464 8.436c3.081-1.942 7.987-3.551 12.632-3.551 7.69-.019 8.947 4.349 8.947 7.15v.663c-16.757-.025-27.342 5.774-27.342 17.593 0 7.217 5.388 13.98 14.758 13.98 5.768 0 10.591-2.3 13.482-5.986h.284s1.915 8.005 12.461 4.944c-.554-3.332-.734-6.884-.734-11.162v-16.469c0-10.497-4.482-19.728-19.629-19.728v-.001zm74.887 0c-7.833 0-11.354 3.97-13.489 7.338h-.186v-6.293h-11.947v46.314h12.585v-27.161c0-1.274.146-2.62.59-3.791 1.043-2.735 3.587-5.934 7.649-5.934 5.078 0 7.455 4.293 7.455 10.49v26.396h12.572v-27.49c0-1.215.167-2.68.525-3.754 1.034-3.111 3.777-5.642 7.553-5.642 5.148 0 7.619 4.219 7.619 11.51v25.376h12.581v-27.277c0-14.386-7.305-20.081-15.55-20.081-3.652 0-6.534.916-9.14 2.515-2.191 1.344-4.151 3.254-5.865 5.768h-.186c-1.994-4.991-6.672-8.284-12.767-8.284l.002-.001zm69.111 0c-7.779 0-13.953 2.185-17.322 4.13l2.467 8.436c3.078-1.942 7.987-3.551 12.63-3.551 7.685-.019 8.946 4.349 8.946 7.15v.663c-16.755-.025-27.342 5.774-27.342 17.593 0 7.217 5.391 13.98 14.766 13.98 5.763 0 10.589-2.3 13.474-5.986h.285s1.914 8.005 12.463 4.944c-.555-3.332-.733-6.884-.733-11.162v-16.469c0-10.497-4.483-19.728-19.632-19.728v-.001zm52.265 0c-4.819 0-10.302 3.111-12.604 9.78h-.352v-8.735h-11.329v46.314h12.915v-23.716c0-1.279.078-2.395.28-3.417.955-4.968 4.755-8.144 10.208-8.144 1.497 0 2.569.162 3.728.329v-12.124c-.972-.196-1.637-.287-2.846-.287l-.001.001zm-189.138 25.035v5.778c0 .855-.074 1.736-.312 2.507-.969 3.209-4.293 5.921-8.448 5.921-3.465 0-6.217-1.966-6.217-6.126 0-6.363 7.004-8.121 14.977-8.08zm143.998 0v5.778c0 .855-.076 1.736-.311 2.507-.969 3.209-4.292 5.921-8.448 5.921-3.466 0-6.218-1.966-6.218-6.126 0-6.363 7.004-8.121 14.977-8.08h-.001z"
@@ -406,126 +407,134 @@
               d="m452.602 146.873c-4.042 0-7.254 2.257-7.254 5.005l2.455 27.793c.271 1.674 2.322 2.966 4.801 2.966 2.484-.004 4.529-1.294 4.805-2.966l2.466-27.793c0-2.748-3.221-5.004-7.268-5.004zm-39.998 22.294c-2.099.05-4.482 1.638-5.998 4.267-2.028 3.5-1.669 7.412.704 8.785l25.293 11.779c1.58.588 3.726-.535 4.969-2.677v-.001c1.248-2.153 1.152-4.574-.162-5.647l-22.845-16.023c-.593-.344-1.26-.499-1.96-.482h-.001zm79.996 0c-.699-.017-1.366.138-1.958.481l-22.848 16.023c-1.306 1.073-1.403 3.495-.161 5.647l.001.001c1.247 2.142 3.386 3.264 4.967 2.677l25.305-11.779c2.382-1.372 2.723-5.284.71-8.785-1.523-2.628-3.911-4.217-6.009-4.267h-.007zm-59.052 36.668c-.327-.004-.644.047-.942.158l-25.293 11.765c-2.372 1.378-2.732 5.291-.704 8.795 2.021 3.493 5.584 5.154 7.957 3.784l22.847-16.01c1.315-1.087 1.411-3.507.162-5.658l.011.005c-1.01-1.752-2.62-2.82-4.038-2.839zm38.119 0c-1.417.019-3.023 1.087-4.036 2.84l.009-.005c-1.243 2.151-1.147 4.571.16 5.658l22.847 16.01c2.369 1.37 5.935-.291 7.966-3.784 2.014-3.504 1.673-7.417-.71-8.796l-25.297-11.765c-.297-.112-.614-.162-.94-.158v-.001zm-19.069 11.519c-2.476.003-4.522 1.289-4.793 2.959l-2.454 27.791c0 2.752 3.213 5.004 7.254 5.004 4.049 0 7.268-2.253 7.268-5.004l-2.46-27.791c-.277-1.67-2.32-2.956-4.805-2.959h-.009z"
               fill="#969696" />
           </svg>
-          </span>
-          <span class="beko">
-            <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.41421" viewBox="0 0 560 400"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="m239.84 121.375v29.34l11.07-16.83h16.38l-16.11 19.26 17.91 21.24h-16.29l-12.96-18.81v18.81h-12.6v-53.1h12.6zm-26.73 28.26c0-3.06-1.35-8.19-7.11-8.19-5.31 0-7.47 4.77-7.74 8.19zm-6.3-16.56c13.05 0 18 10.17 18 20.16 0 2.16-.27 4.05-.45 4.95h-26.1c.45 5.22 5.58 7.74 11.43 7.74 4.32 0 7.74-.54 11.16-1.62l1.62 8.55c-4.14 1.62-9.18 2.52-14.67 2.52-13.77 0-21.6-7.92-21.6-20.61.09-10.35 6.48-21.69 20.61-21.69m-43.38 33.21c4.86 0 8.01-4.86 8.01-12.15 0-6.03-2.34-12.15-8.01-12.15-5.58 0-7.92 5.31-8.28 10.89v2.7c.45 6.21 3.24 10.71 8.28 10.71m.36-33.21c12.42 0 20.7 8.55 20.7 20.7 0 14.85-10.53 21.6-21.33 21.6-11.52 0-20.43-7.38-20.97-19.8v-34.2h13.05v13.05c2.52-.9 5.4-1.35 8.55-1.35m121.05 33.21c4.86 0 8.01-4.86 8.01-12.15 0-6.03-2.34-12.15-8.01-12.15-6.03 0-8.28 6.21-8.28 12.15 0 6.93 2.88 12.15 8.28 12.15m.27-33.21c12.42 0 20.7 8.55 20.7 20.7 0 14.85-10.53 21.6-21.33 21.6-11.88 0-20.97-7.74-20.97-20.88 0-13.05 8.64-21.42 21.6-21.42m-142.92 68.85v12.69l159.03-22.32v-12.69z"
-                fill="#969696" fill-rule="nonzero" transform="matrix(2.13967 0 .037405 2.14293 -204.438 -159.906)" />
-            </svg>
-          </span>
+        </span>
+        <span class="beko">
+          <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.41421"
+            viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m239.84 121.375v29.34l11.07-16.83h16.38l-16.11 19.26 17.91 21.24h-16.29l-12.96-18.81v18.81h-12.6v-53.1h12.6zm-26.73 28.26c0-3.06-1.35-8.19-7.11-8.19-5.31 0-7.47 4.77-7.74 8.19zm-6.3-16.56c13.05 0 18 10.17 18 20.16 0 2.16-.27 4.05-.45 4.95h-26.1c.45 5.22 5.58 7.74 11.43 7.74 4.32 0 7.74-.54 11.16-1.62l1.62 8.55c-4.14 1.62-9.18 2.52-14.67 2.52-13.77 0-21.6-7.92-21.6-20.61.09-10.35 6.48-21.69 20.61-21.69m-43.38 33.21c4.86 0 8.01-4.86 8.01-12.15 0-6.03-2.34-12.15-8.01-12.15-5.58 0-7.92 5.31-8.28 10.89v2.7c.45 6.21 3.24 10.71 8.28 10.71m.36-33.21c12.42 0 20.7 8.55 20.7 20.7 0 14.85-10.53 21.6-21.33 21.6-11.52 0-20.43-7.38-20.97-19.8v-34.2h13.05v13.05c2.52-.9 5.4-1.35 8.55-1.35m121.05 33.21c4.86 0 8.01-4.86 8.01-12.15 0-6.03-2.34-12.15-8.01-12.15-6.03 0-8.28 6.21-8.28 12.15 0 6.93 2.88 12.15 8.28 12.15m.27-33.21c12.42 0 20.7 8.55 20.7 20.7 0 14.85-10.53 21.6-21.33 21.6-11.88 0-20.97-7.74-20.97-20.88 0-13.05 8.64-21.42 21.6-21.42m-142.92 68.85v12.69l159.03-22.32v-12.69z"
+              fill="#969696" fill-rule="nonzero" transform="matrix(2.13967 0 .037405 2.14293 -204.438 -159.906)" />
+          </svg>
+        </span>
+      </div>
+    </div>
+    <section class="contact-sec" id="getintouch">
+      <div class="contact-content grid container">
+        <div class="contact-infos">
+          <div class="sub-title-1">
+            <h4>Contact us</h4>
+            <h2>
+              Have project in mind? <br>
+              you can contact us.
+            </h2>
+          </div>
+          <p>
+            We're excited to hear about your project ideas! Whether it's a small-scale venture or a grand undertaking,
+            our team of experienced civil engineers is ready to bring your vision to life. Reach out to us today and
+            let's turn your ideas into reality.
+          </p>
+          <div class="infos flex">
+            <div class="email"><a href="mailto:thegaetanht@gmail.com"><i
+                  class="bi bi-envelope-fill"></i>info@ceneng.site</a></div>
+            <div class="phone"><a href="tel:+509 44 26 3331"><i class="bi bi-telephone-fill"></i>+509 44 26 3331</a>
+            </div>
+            <div class="address"><a href=""><i class="bi bi-geo-alt-fill"></i><span>Engine street, CE 1030.</a></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-ctn">
+          <div class="form card big-card">
+            <h3>Send a message</h3>
+            <form name="feedbacks" method="POST" id="form" action="/thank/" netlify>
+              <div class="form-control">
+                <label for="name"></label>
+                <input type="text" id="name" for="fullname" placeholder="Full name">
+              </div>
+              <div class="form-control">
+                <label for="email"></label>
+                <input type="email" id="email" for="email" placeholder="Email">
+              </div>
+              <div class="form-control">
+                <textarea name="message" id="message" placeholder="Message"></textarea>
+              </div>
+              <input type="submit" class="btn btn-primary" id="submit" value="SEND" disabled>
+            </form>
+          </div>
         </div>
       </div>
-      <section class="contact-sec" id="getintouch">
-          <div class="contact-content grid container">
-            <div class="contact-infos">
-              <div class="sub-title-1">
-                <h4>Contact us</h4>
-                <h2>
-                  Have project in mind? <br>
-                  you can contact us.
-                </h2>
-              </div>
-              <p>
-                We're excited to hear about your project ideas! Whether it's a small-scale venture or a grand undertaking, our team of experienced civil engineers is ready to bring your vision to life. Reach out to us today and let's turn your ideas into reality.
-              </p>
-              <div class="infos flex">
-                <div class="email"><a href="mailto:thegaetanht@gmail.com"><i class="bi bi-envelope-fill"></i>info@ceneng.site</a></div>
-                <div class="phone"><a href="tel:+509 44 26 3331"><i class="bi bi-telephone-fill"></i>+509 44 26 3331</a></div>
-                <div class="address"><a href=""><i class="bi bi-geo-alt-fill"></i><span>Engine street, CE 1030.</a></span></div>
-              </div>
-            </div>
-        
-          <div class="form-ctn">
-            <div class="form card big-card">
-              <h3>Send a message</h3>
-              <form name="feedbacks" method="POST" id="form" action="/thank/" netlify>
-                <div class="form-control">
-                  <label for="name"></label>
-                  <input type="text" id="name" for="fullname" placeholder="Full name">
-                </div>
-                <div class="form-control">
-                  <label for="email"></label>
-                  <input type="email" id="email" for="email" placeholder="Email">
-                </div>
-               <div class="form-control">
-                  <textarea name="message" id="message" placeholder="Message"></textarea>
-               </div>
-                <input type="submit" class="btn btn-primary" id="submit" value="SEND" disabled>
-              </form>
-            </div>
-            </div>
+    </section>
+    <footer>
+      <div class="content grid container">
+        <div class="company-desc">
+          <img src="./assets/white-verical-logo.svg" alt="central engineering logo">
+          <p>We are a leading civil engineering firm with 43 years of trusted experience, delivering innovative
+            solutions and shaping a better world. Contact us today to discuss your project needs.
+          </p>
+          <div class="social-footer">
+            <a href="/"><i class="bi bi-facebook"></i></a>
+            <a href="/"><i class="bi bi-instagram"></i></a>
+            <a href="/"><i class="bi bi-twitter"></i></a>
+            <a href="/"><i class="bi bi-linkedin"></i></a>
           </div>
-      </section>
-      <footer>
-          <div class="content grid container">
-            <div class="company-desc">
-              <img src="./assets/white-verical-logo.svg" alt="central engineering logo">
-              <p>We are a leading civil engineering firm with 43 years of trusted experience, delivering innovative solutions and shaping a better world. Contact us today to discuss your project needs.
-              </p>
-              <div class="social-footer">
-                <a href="/"><i class="bi bi-facebook"></i></a>
-                <a href="/"><i class="bi bi-instagram"></i></a>
-                <a href="/"><i class="bi bi-twitter"></i></a>
-                <a href="/"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
+        </div>
 
-            <div class="company-links flex">
-                <div class="special-links">
-                  <h4 class="footer-style">Company</h4>
-                  <ul>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Sitemap</a></li>
-                    <li><a href="#">FQA</a></li>
-                  </ul>
-                </div>
-
-                <div class="company-services">
-                  <h4 class="footer-style">Services</h4>
-                  <ul>
-                    <li><a href="#">General contract</a></li>
-                    <li><a href="#">Bridge construction</a></li>
-                    <li><a href="#">Building construction</a></li>
-                    <li><a href="#">Renovation services</a></li>
-                    <li><a href="#">Interior design</a></li>
-                    <li><a href="#">Project planing</a></li>
-                  </ul>
-                </div>
-            </div>
-          
-            <div class="blog">
-              <h4 class="footer-style">Latest news</h4>
-              <ul>
-                <li class="flex">
-                    <img src="./assets/img/large-building.png" alt="">
-                    <div class="blog-data">
-                      <span class="date">07/02/2022</span>
-                      <h4>20 civil engineering
-                        Interview questions.</h4>
-                    </div>
-                </li>
-
-                <li class="flex">
-                    <img src="./assets/img/interior-design.png" alt="">
-                    <div class="blog-data">
-                      <span class="date">05/02/2022</span>
-                      <h4>13 interior design tricks to capture attention.</h4>
-                    </div>
-                </li>
-              </ul>
-            </div>
+        <div class="company-links flex">
+          <div class="special-links">
+            <h4 class="footer-style">Company</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">FQA</a></li>
+            </ul>
           </div>
-          <span class="copy">Copyright © <span id="copyright-date">0000</span> Central Engineering.</span>
-      </footer>
-    </div>
+
+          <div class="company-services">
+            <h4 class="footer-style">Services</h4>
+            <ul>
+              <li><a href="#">General contract</a></li>
+              <li><a href="#">Bridge construction</a></li>
+              <li><a href="#">Building construction</a></li>
+              <li><a href="#">Renovation services</a></li>
+              <li><a href="#">Interior design</a></li>
+              <li><a href="#">Project planing</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="blog">
+          <h4 class="footer-style">Latest news</h4>
+          <ul>
+            <li class="flex">
+              <img src="./assets/img/large-building.png" alt="">
+              <div class="blog-data">
+                <span class="date">07/02/2022</span>
+                <h4>20 civil engineering
+                  Interview questions.</h4>
+              </div>
+            </li>
+
+            <li class="flex">
+              <img src="./assets/img/interior-design.png" alt="">
+              <div class="blog-data">
+                <span class="date">05/02/2022</span>
+                <h4>13 interior design tricks to capture attention.</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <span class="copy">Copyright © <span id="copyright-date">0000</span> Central Engineering. Created by<a
+          href="https://www.instagram.com/gayetan.an/">Gayetan.an</a></span>
+    </footer>
+  </div>
   <!---------------SWIPPER CSS------------------>
-    <script src="./apps/swiper-bundle.min.js"></script>
-    <script src="./apps/scrollreveal.min.js"></script>
-    <script src="./apps/mixitup.min.js"></script>
-    <script type="module" src="./apps/app.min.js"></script>   
-  </body>
+  <script src="./apps/swiper-bundle.min.js"></script>
+  <script src="./apps/scrollreveal.min.js"></script>
+  <script src="./apps/mixitup.min.js"></script>
+  <script type="module" src="./apps/app.min.js"></script>
+</body>
+
 </html>
